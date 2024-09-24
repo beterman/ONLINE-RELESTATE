@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(image/_uhdnature2550.jpg);
+    background-size: cover;
+    height: 120vh;
+}
+
+.instructions{
+    height: 30px;
+    width: 400px;
+    top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: blue;
+    font-size: 35px;
+    font-family: sans-serif;
+    position: relative;
+    left: 360px;
+    background-color: gold;
+    
+}
+
+
+.form{
+    width: 800px;
+    height: 600px;
+    background: rgb(5, 232, 240);
+    position: relative ;
+    top: 20px;
+    left: 150px;
+    border-radius: 10px;
+    padding: 17px;
+}
+
+
+.form input{
+    width: 190px;
+     height: 35px;
+     background: transparent;
+     border-bottom: 1px solid #a79c0d;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     color:#000;
+     font-size: 15px;
+     letter-spacing: 1px;
+     margin-top: 30px;
+     font-family: sans-serif;
+}
+
+.form input:focus{
+    outline-color:none;
+    }
+    
+    ::placeholder{
+    color: rgb(87, 77, 77);
+    font-family: Arial;
+    }
+    .content b1,b2,b3{
+        width: 300px;
+        float: left;
+        height: 70px; 
+     }
+     
+     ul{
+         float: left;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     ul {
+         list-style: none;
+         margin-left: 70px;
+         margin-top: 40px;
+         font-size: 25px;
+     }  
+     
+     ul {
+         text-decoration: none;
+         color: #fff;
+         font-family: Arial;
+         font-weight: bold;
+         transition: 0.4s ease-in-out;
+     } 
+     
+     ul :hover{
+        color:#02afff ; 
+     }
+
+
+     u2{
+        float: left;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    u2 {
+        list-style: none;
+        margin-left: 70px;
+        margin-top: 40px;
+        font-size: 25px;
+    }  
+    
+    u2 {
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    } 
+    
+    u2 :hover{
+       color:#02afff ; 
+    }
+
+    .submit{
+        width: 220px;
+        font-family: sans-serif;
+        text-align: center;
+        color: #FF7200;
+        font-size: 28px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 50px;
+        padding: 10px;
+        left: 6px;}

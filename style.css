@@ -1,0 +1,231 @@
+*{
+   margin: 0; 
+   padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(8, 7, 7, 0.904)50%,rgba(8, 7, 7, 0.925)50%),url(image/_uhdnature2550.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+width: 200px;
+float: left;
+height: 70px;
+}
+
+.logo{
+    color: #02afff;
+    font-size: 50px;
+     font-family: Arial;
+     padding-left: 1px;
+     float: left;
+     padding-top: 10px;
+     transition: 0.4s;
+     cursor: context-menu;
+}
+.logo:hover{
+color: #fff
+}
+.menu{
+   width: 300px;
+   float: left;
+   height: 70px; 
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 25px;
+}  
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+} 
+
+ul li a:hover{
+   color:#02afff ; 
+}
+
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 400px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #f0ebe8;
+    margin-top: 1px;
+    color: #fff;
+    border-right: none;
+    font-size: 20px;
+    float: left;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 70px;
+    height: 35px;
+    background: #02afff;
+    border: 2px solid #c3f85f;
+    margin-top: 1px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    cursor: auto;
+}  
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    cursor: auto;  
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 30px;
+    margin-top: 12%;
+    letter-spacing: 2px;
+    cursor: auto;
+}
+
+.content .cn{
+    width: 120px;
+    height: 40px;
+    background: #02afff;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .4s ease;
+}  
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #02afff;
+    font-size: 40px;
+
+}
+
+.img-box{
+    width: 15%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 1100px;
+    top: 200px;
+}
+
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s;
+    transition: left 1s;
+}
+
+.img-box:hover .back-img{
+    bottom: 20%;
+}
+
+.img-box:hover .main-img{
+    left: 60%;
+}
+
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin: 1px;
+    border-radius: 15px;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-size: 21px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
